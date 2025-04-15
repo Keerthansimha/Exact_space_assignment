@@ -1,4 +1,4 @@
-// scrape.js
+// sscrape.js
 const fs = require("fs");
 const puppeteer = require("puppeteer");
 
@@ -6,7 +6,7 @@ const url = process.env.SCRAPE_URL;
 
 (async () => {
   if (!url) {
-    console.error("SCRAPE_URL not provided!");
+    console.error("SSCRAPE_URL not provided");
     process.exit(1);
   }
 
