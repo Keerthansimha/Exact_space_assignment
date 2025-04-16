@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
   apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-COPY scrape.js package.json ./
+COPY sscrape.js paackage.json ./
 RUN npm install
 ENV SCRAPE_URL=https://example.com
 RUN node scrape.js
