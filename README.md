@@ -7,6 +7,8 @@ docker build -t scraper-server .
 
 ## 🚀 How To Run A Container :
 
+```bash
+
   To run the Docker container and map the container's port to your host machine, use:
   docker run -d -p 5000:5000 scraper-server
 
