@@ -1,17 +1,17 @@
 # Puppeteer + Flask Scraper Container
 
-## 📦 Build Docker Image :
+📦 Build Docker Image :
 
 ```bash
 docker build -t scraper-server .
 
-## 🚀 How To Run A Container :
+🚀 How To Run A Container :
 
   To run the Docker container and map the container's port to your host machine, use:
 ```bash
   docker run -d -p 5000:5000 scraper-server
 
- ## 🌐 How to pass the URL To be Scraped :
+🌐 How to pass the URL To be Scraped :
 
  can pass the URL to be scraped as an environment variable when running the container:
 ```bash
